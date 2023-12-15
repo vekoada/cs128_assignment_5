@@ -151,8 +151,8 @@ class MarkovModel:
         """
         Predict the next item in the sequence based on the Markov model.
 
-        Parameters:
-        - seq (str or tuple): Input sequence for which the next item is predicted.
+        Parameters: - seq (str or tuple of strings): Input sequence for which the next item is predicted. For
+        char-level, input is string; for word-level, input is tuple of strings.
 
         Returns:
         - str: The predicted next item.
