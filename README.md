@@ -29,7 +29,7 @@ MarkovModel is a Python class that implements a query likelihood language model 
 
 ## Installation
 
-No installation required. Simply include the `MarkovModel` class in your project, and you're ready to go.
+No installation required, but make sure you have the required libraries from `requirements.txt`. Then, just include the `MarkovModel` class in your project.
 
 ## Usage
 
